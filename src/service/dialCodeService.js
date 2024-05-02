@@ -77,7 +77,7 @@ function prepareQRCodeRequestData (dialcodes, config, channel, publisher, conten
       data['objectId'] = contentId || channel
       data['config'] = config
       data['storage'] = {
-        'container': 'dial'
+        'container': 'dial-ed'
       }
       data['storage']['path'] = publisher ? (channel + '/' + publisher + '/') : (channel + '/')
 
